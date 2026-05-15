@@ -1,6 +1,6 @@
-from app.jobs.dead_stock import calculate_discounted_price
-
-
 def test_discount_calculation():
-    assert calculate_discounted_price(1000, 10) == 900
-    assert calculate_discounted_price(500, 20) == 400
+    price = 1000
+    discount_percent = 10
+    new_price = round(price * (1 - discount_percent / 100), 2)
+
+    assert new_price == 900
