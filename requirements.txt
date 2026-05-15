@@ -19,7 +19,6 @@ celery==5.4.0
 
 python-dotenv==1.1.0
 python-multipart==0.0.20
-PyYAML==6.0.2
 
 pytest==8.3.5
 httpx==0.28.1

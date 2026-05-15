@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+Dockerfile.txt
+postgres_data/
